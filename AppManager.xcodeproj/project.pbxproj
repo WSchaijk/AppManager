@@ -11,6 +11,10 @@
 		2BA6C4BE2109F8F900BF202F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA6C4BD2109F8F900BF202F /* ViewController.swift */; };
 		2BA6C4C02109F8FB00BF202F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA6C4BF2109F8FB00BF202F /* Assets.xcassets */; };
 		2BA6C4C32109F8FB00BF202F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA6C4C12109F8FB00BF202F /* Main.storyboard */; };
+		2BE0996E2110C01400B83AF4 /* CSPApplicationWorkspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0996A2110C01400B83AF4 /* CSPApplicationWorkspace.swift */; };
+		2BE0996F2110C01400B83AF4 /* CSPOpenApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0996B2110C01400B83AF4 /* CSPOpenApplication.swift */; };
+		2BE099702110C01400B83AF4 /* CSPApplicationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0996C2110C01400B83AF4 /* CSPApplicationType.swift */; };
+		2BE099712110C01400B83AF4 /* CSPUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0996D2110C01400B83AF4 /* CSPUrl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		2BA6C4C22109F8FB00BF202F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BA6C4C42109F8FB00BF202F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BA6C4C52109F8FB00BF202F /* AppManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppManager.entitlements; sourceTree = "<group>"; };
+		2BE0996A2110C01400B83AF4 /* CSPApplicationWorkspace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSPApplicationWorkspace.swift; sourceTree = "<group>"; };
+		2BE0996B2110C01400B83AF4 /* CSPOpenApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSPOpenApplication.swift; sourceTree = "<group>"; };
+		2BE0996C2110C01400B83AF4 /* CSPApplicationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSPApplicationType.swift; sourceTree = "<group>"; };
+		2BE0996D2110C01400B83AF4 /* CSPUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSPUrl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 		2BA6C4BA2109F8F900BF202F /* AppManager */ = {
 			isa = PBXGroup;
 			children = (
+				2BE0996C2110C01400B83AF4 /* CSPApplicationType.swift */,
+				2BE0996A2110C01400B83AF4 /* CSPApplicationWorkspace.swift */,
+				2BE0996B2110C01400B83AF4 /* CSPOpenApplication.swift */,
+				2BE0996D2110C01400B83AF4 /* CSPUrl.swift */,
 				2BA6C4BB2109F8F900BF202F /* AppDelegate.swift */,
 				2BA6C4BD2109F8F900BF202F /* ViewController.swift */,
 				2BA6C4BF2109F8FB00BF202F /* Assets.xcassets */,
@@ -133,8 +145,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BE099702110C01400B83AF4 /* CSPApplicationType.swift in Sources */,
+				2BE0996E2110C01400B83AF4 /* CSPApplicationWorkspace.swift in Sources */,
 				2BA6C4BE2109F8F900BF202F /* ViewController.swift in Sources */,
 				2BA6C4BC2109F8F900BF202F /* AppDelegate.swift in Sources */,
+				2BE099712110C01400B83AF4 /* CSPUrl.swift in Sources */,
+				2BE0996F2110C01400B83AF4 /* CSPOpenApplication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
