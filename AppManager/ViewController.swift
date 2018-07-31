@@ -1,9 +1,3 @@
-/*
-    AppManager
-    Wesley van Schaijk
-    wesley@wschaijk.nl
-*/
-
 import Cocoa
 
 class ViewController: NSViewController {
@@ -19,4 +13,3 @@ class ViewController: NSViewController {
     @IBAction func hideAll(_ sender: Any) { workspace.hideApplications(hideActiveApplication: false) }
     @IBAction func closeAll(_ sender: Any) { workspace.closeApplications(closeActiveApplication: false, forceTerminate: false) }
 }
-

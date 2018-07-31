@@ -1,6 +1,7 @@
 import Foundation
 
 struct CSPUrl {
+    
     public var url: URL
     
     public init(url: URL) { self.url = url }

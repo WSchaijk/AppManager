@@ -2,6 +2,7 @@ import Foundation
 import AppKit
 
 struct CSPApplicationWorkspace {
+    
     private var workspace: NSWorkspace
     
     init() { self.workspace = NSWorkspace() }

@@ -2,6 +2,7 @@ import Foundation
 import AppKit
 
 struct CSPOpenApplication {
+    
     private var applicationInstance: NSRunningApplication
     private var applicationName: String
     private var applicationPath: CSPUrl
